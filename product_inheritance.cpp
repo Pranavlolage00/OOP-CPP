@@ -28,6 +28,8 @@ class discount:public product
      }
      void calc()
      {
+         r=0;
+         t=0;
          r=price*d/100;
          t=(float)t+price-r;
      }
@@ -39,6 +41,7 @@ class discount:public product
         cout<<"discout in percentage="<<d<<endl;
         cout<<"discount in $ Rupees="<<r<<endl;
         cout<<"Grand Total="<<t<<endl;
+        cout<<"--------------------------------"<<endl;
      }
 };
 int main()
@@ -60,5 +63,4 @@ int main()
       }
   
 }
-
 
